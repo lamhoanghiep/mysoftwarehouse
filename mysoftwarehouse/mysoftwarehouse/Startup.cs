@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using mysoftwarehouse.Data;
-using mysoftwarehouse.Services;
+using mysoftwarehouse.Identity.Services;
 
 namespace mysoftwarehouse
 {

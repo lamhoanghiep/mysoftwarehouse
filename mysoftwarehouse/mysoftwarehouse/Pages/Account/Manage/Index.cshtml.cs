@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using mysoftwarehouse.Data;
+using mysoftwarehouse.Identity.Services;
 using mysoftwarehouse.Services;
 
 namespace mysoftwarehouse.Pages.Account.Manage
