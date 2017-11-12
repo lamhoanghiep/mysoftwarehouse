@@ -45,12 +45,12 @@ namespace mysoftwarehouse.web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                ////add webpackmiddleware
-                //app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions()
-                //{
-                //    HotModuleReplacement = true,
-                //    ReactHotModuleReplacement = true
-                //});
+                //add webpackmiddleware
+                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions()
+                {
+                    HotModuleReplacement = true,
+                    ReactHotModuleReplacement = true
+                });
                 app.UseBrowserLink();
                 app.UseDatabaseErrorPage();
 
